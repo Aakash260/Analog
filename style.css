@@ -1,0 +1,38 @@
+#Container {
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    background: url(clock.jpg) no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+#hr {
+    position: absolute;
+    width: 2.8%;
+    height: 14%;
+    background-color: black;
+    margin-top: 33%;
+    margin-left: 51%;
+    border-radius: 10px;
+}
+
+#min {
+    position: absolute;
+    width: 1.8%;
+    height: 28%;
+    background-color: #13efbb;
+    margin-top: 20%;
+    margin-left: 51%;
+    border-radius: 10px;
+}
+
+#sec {
+    position: absolute;
+    width: 0.8%;
+    height: 24%;
+    background-color: blueviolet;
+    margin-top: 24%;
+    margin-left: 51%;
+    border-radius: 10px;
+}
